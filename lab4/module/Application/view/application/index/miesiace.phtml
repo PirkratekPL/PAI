@@ -1,0 +1,9 @@
+<h1>kolory i miesiace</h1>
+<ul>
+<?php foreach ($nazwy_miesiecy as $miesiac): // dostęp do zmiennej widoku bezpośrednio ?>
+	<li>
+		
+		<strong><?=$miesiac[0].' -> '.$miesiac[1] ?></strong>
+	</li>
+<?php endforeach; ?>
+</ul>

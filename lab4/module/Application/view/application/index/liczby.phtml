@@ -1,0 +1,17 @@
+<h1>liczby male i duże</h1>
+<h2>parzyste</h2>
+<ul>
+<?php foreach ($liczby_parzyste as $parzyste): // dostęp do zmiennej widoku bezpośrednio ?>
+	<li>
+		<strong><?=$parzyste?></strong>
+	</li>
+<?php endforeach; ?>
+</ul>
+<h2>nieparzyste</h2>
+<ul>
+<?php foreach ($liczby_nieparzyste as $nieparzyste): // dostęp do zmiennej widoku bezpośrednio ?>
+	<li>
+		<strong><?=$nieparzyste?></strong>
+	</li>
+<?php endforeach; ?>
+</ul>
